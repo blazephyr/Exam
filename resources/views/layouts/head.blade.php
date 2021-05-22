@@ -16,7 +16,9 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-   
+   <style>
+       /* .navbar-collapse.collapse.in { display: block!important; } */
+   </style>
     <!-- Bootstrap Core CSS -->
     <link href="{{ URL::asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="DataTables/datatables.min.css"/>

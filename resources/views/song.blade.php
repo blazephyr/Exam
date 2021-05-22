@@ -43,7 +43,7 @@
                            </p>
                         
                           </ul>
-                          <a href="/songs/{{$song[0]->id}}/delete" onclick="return confirm('Remove this song from SongSite?')"><i class="fa fa-trash fa-2x" style="float:right;" aria-hidden="true"></i></a><a href="/songs/{{$song[0]->id}}/edit" onclick="return confirm('Remove this song from SongSite?')"><i class="fa fa-pencil fa-2x" style="float:right;margin-right:3%;" aria-hidden="true"></i></a>
+                          <a href="/songs/{{$song[0]->id}}/delete" onclick="return confirm('Remove this song from SongSite?')"><i class="fa fa-trash fa-2x" style="float:right;" aria-hidden="true"></i></a><a href="/songs/{{$song[0]->id}}/edit" ><i class="fa fa-pencil fa-2x" style="float:right;margin-right:3%;" aria-hidden="true"></i></a>
                         </div>  <div class="col-md-2"></div>
                         {{-- <ol class="breadcrumb">
                             <li>

@@ -3,17 +3,22 @@
 @include('layouts.head')
 <body>
     <div id="app">
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-inverse navbar-expand-md navbar-fixed-top " role="navigation">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                    SongSite
                 </a>
-                      <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    
+               
+                      <button type="button" class="navbar-toggle" style="margin-right:0;" data-toggle="collapse" data-target=".navHeaderCollapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                <div class="collapse navbar-collapse navHeaderCollapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
-                    <ul class="nav navbar-right top-nav">
+                    
+                    <ul class="nav navbar-nav navbar-right top-nav" >
          <!-- Authentication Links -->
          @guest
          @if (Route::has('login'))
@@ -53,6 +58,7 @@
                
                     </ul>
                 </div>
+    
             </div>
         </nav>
 
